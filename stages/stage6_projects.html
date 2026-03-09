@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stage 6 · Projects | 星序 Tianxu</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="../index.html">星序 Tianxu</a>
+      <nav class="nav">
+        <a href="../index.html">首页</a>
+        <a href="../pages/path.html">学习路径</a>
+        <a href="../pages/community.html">社区</a>
+        <a href="../pages/about.html">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero stage-hero">
+      <div class="container">
+        <p class="eyebrow">Stage 6</p>
+        <h1>Projects · 从学习者到构建者</h1>
+        <p class="hero-text">
+          Stage 6 是星序路径中的最终实践阶段。你将不再只是学习知识点，而是把前面学过的数学、Python、量化研究、
+          风险分析与机器学习真正整合起来，完成可以展示、可以迭代、可以写进简历和作品集的项目。
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>这一阶段你要完成什么</h2>
+          <p>
+            你将从“理解概念”走向“独立交付”。每个项目都强调真实数据、明确问题、完整输出和可展示成果。
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Build</h3>
+            <p>把前面学过的知识做成真正可运行的项目，而不是停留在笔记和零散代码。</p>
+          </div>
+          <div class="card">
+            <h3>Integrate</h3>
+            <p>学会把数据处理、指标计算、研究逻辑和可视化组合成一个完整系统。</p>
+          </div>
+          <div class="card">
+            <h3>Showcase</h3>
+            <p>沉淀成 GitHub 项目、报告、页面 Demo 和作品集，为实习、求职或个人品牌服务。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-highlight">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Featured Project</p>
+          <h2>Project 01 · Portfolio Risk Dashboard</h2>
+          <p>
+            一个面向学生和个人投资者的投资组合风险分析项目。用户手动输入持仓或上传 CSV，
+            系统自动计算组合权重、行业暴露、集中度、波动率、Beta、历史收益与回撤，并生成可视化面板。
+          </p>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>项目目标</h3>
+            <p>
+              许多人会买股票，但并不知道自己的组合到底暴露在什么行业、什么风格和什么系统性风险之下。
+              这个项目要做的，就是把“持仓列表”转化成一张清晰的风险画像。
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>你将构建的内容</h3>
+            <ul>
+              <li>持仓输入模块（手动输入 / CSV 导入）</li>
+              <li>持仓市值与权重计算</li>
+              <li>行业暴露分析（如申万一级行业）</li>
+              <li>组合集中度与风险指标计算</li>
+              <li>收益、波动率、Beta、最大回撤分析</li>
+              <li>本地可视化 Dashboard 展示</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>数据来源</h3>
+            <p>
+              项目可基于 Tushare 获取 A 股日线数据、指数基准数据和行业分类数据，
+              因此不依赖高门槛券商接口，学生和个人开发者也能完成。
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>核心技能</h3>
+            <ul>
+              <li>Python / pandas / numpy</li>
+              <li>收益率与时间序列处理</li>
+              <li>组合风险与暴露分析</li>
+              <li>金融数据清洗与对齐</li>
+              <li>可视化与 Dashboard 设计</li>
+              <li>从研究脚本到完整项目的封装</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>最终交付</h3>
+            <ul>
+              <li>一个可运行的本地分析工具</li>
+              <li>一份项目说明文档或研究报告</li>
+              <li>一套可展示的图表和结果页面</li>
+              <li>一个可放入 GitHub 的完整项目仓库</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>为什么它重要</h3>
+            <p>
+              这个项目看似简单，但它本质上连接了真实投资场景与量化研究方法：
+              你不仅是在“展示持仓”，而是在训练自己如何把原始数据转化为结构化洞察。
+              这正是量化研究、投资分析和数据科学工作中最核心的能力之一。
+            </p>
+          </div>
+        </div>
+
+        <div class="project-roadmap card">
+          <h3>Recommended Build Path</h3>
+          <ol>
+            <li>定义输入格式：股票代码、持仓股数、成本或权重</li>
+            <li>拉取历史价格、行业分类和基准指数数据</li>
+            <li>计算市值、权重、组合收益率和历史净值</li>
+            <li>生成行业暴露、集中度、Beta、波动率与回撤指标</li>
+            <li>构建 Streamlit 或网页端可视化界面</li>
+            <li>补充 README、截图、结果解释与后续扩展方向</li>
+          </ol>
+        </div>
+
+        <div class="project-meta grid grid-3">
+          <div class="card">
+            <h3>Level</h3>
+            <p>Intermediate</p>
+          </div>
+          <div class="card">
+            <h3>Estimated Time</h3>
+            <p>2–3 weeks</p>
+          </div>
+          <div class="card">
+            <h3>Best For</h3>
+            <p>学生、量化初学者、个人投资者</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>你将真正练到的能力</h2>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>从零散知识到系统整合</h3>
+            <p>
+              你会发现，真正的项目不是单独考察某一个公式，而是要求你把数据抓取、数据清洗、
+              收益率计算、风险定义、图表表达和页面组织全部串起来。
+            </p>
+          </div>
+          <div class="card">
+            <h3>从“会分析”到“会表达”</h3>
+            <p>
+              一个好的项目不只是计算出指标，更要让别人看懂结果。
+              这也是为什么可视化、页面设计和文字解释会成为 Stage 6 的重要部分。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>More Projects Coming</h2>
+          <p>Stage 6 会持续补充更多面向作品集和研究展示的实战项目。</p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Factor Backtest Lab</h3>
+            <p>构建基础因子回测框架，学习信号生成、分组收益、绩效评价与可视化输出。</p>
+          </div>
+          <div class="card">
+            <h3>ETF Rotation Dashboard</h3>
+            <p>基于宏观、行业或技术信号做 ETF 配置分析，形成轻量级资产配置原型。</p>
+          </div>
+          <div class="card">
+            <h3>Pair Trading Research Notebook</h3>
+            <p>从协整、残差、价差回归出发，完成一个完整的配对交易研究项目。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container">
+        <div class="card cta-card">
+          <h2>Stage 6 的目标，不是做完项目，而是开始构建自己的方法论。</h2>
+          <p>
+            当你能把一个想法做成工具、把一个研究做成页面、把一个结果讲清楚，
+            你就已经开始从学习者，变成真正的构建者。
+          </p>
+          <div class="hero-actions" style="margin-top: 16px;">
+            <a class="btn" href="../pages/path.html">返回学习路径</a>
+            <a class="btn btn-secondary" href="../index.html">回到首页</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 星序 Tianxu. Built for learners who want to build.</p>
+    </div>
+  </footer>
+</body>
+</html>
